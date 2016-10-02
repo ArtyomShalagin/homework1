@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="my_button" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
 </resources>
